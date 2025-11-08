@@ -16,3 +16,7 @@ Before pushing it remove the remote configured previously- $ git remote remove o
 6) I had to change EC2 instance type from t3.micro to t3.small as the jenkins pipeline wa rnning on t3.micro. Stop the instance and from Actions->Change Instance type. Still Jenkins runs very slow but be patient with it and it builts the pipeline. 
 
 <img width="1792" height="1068" alt="Screenshot 2025-11-08 at 15 26 48" src="https://github.com/user-attachments/assets/1eb998a4-9db1-42a1-8fd4-0059d9a3891c" />
+
+
+<img width="1792" height="840" alt="Screenshot 2025-11-08 at 16 04 17" src="https://github.com/user-attachments/assets/dca290e1-4f00-4f4a-80e5-0494d258022f" />
+
