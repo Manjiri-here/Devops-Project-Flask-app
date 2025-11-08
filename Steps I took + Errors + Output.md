@@ -1,3 +1,5 @@
+Next Challenge: Build this same pipeline using Github actions and Gitlab CI
+
 # I pretty much followed what Prashant Gohel mentioned in the redame.md file. Below are the obstacles I faced while following those steps and how I resolved them:
 
 1) Updating and upgrading the linux packages, installing git, docker, docker.io and docker compose, Installing Jenkins and post-installation setup wizard by referring- https://www.jenkins.io/doc/book/installing/linux/ on EC2 instance.
