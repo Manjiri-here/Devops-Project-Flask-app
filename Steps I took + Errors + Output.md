@@ -20,3 +20,7 @@ Before pushing it remove the remote configured previously- $ git remote remove o
 
 <img width="1792" height="840" alt="Screenshot 2025-11-08 at 16 04 17" src="https://github.com/user-attachments/assets/dca290e1-4f00-4f4a-80e5-0494d258022f" />
 
+ubuntu@ip-172-31-24-50:~/DevOps-Project-Two-Tier-Flask-App$ docker ps
+CONTAINER ID   IMAGE                        COMMAND                  CREATED          STATUS                      PORTS                                                    NAMES
+749e78532a53   jenkins-pipeline-flask-app   "python app.py"          58 minutes ago   Up 58 minutes (unhealthy)   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp              two-tier-app
+c4ddaf314239   mysql                        "docker-entrypoint.s…"   58 minutes ago   Up 58 minutes (healthy)     0.0.0.0:3306->3306/tcp, [::]:3306->3306/tcp, 33060/tcp   mysql
